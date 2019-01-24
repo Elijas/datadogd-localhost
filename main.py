@@ -2,7 +2,6 @@ import cherrypy
 import tracing
 import config
 
-config.APP_HOST = 'SP1'
 tracing.start_all()
 
 
