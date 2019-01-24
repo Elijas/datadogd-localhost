@@ -1,3 +1,5 @@
+import socket
+
 APP_FULLNAME = 'datadogd-localhost'
 APP_RELEASE_VERSION = 1
-APP_HOST = 'SPX'
+APP_HOST = socket.gethostname()
